@@ -2,7 +2,7 @@ as yet unclassified
 baseline: spec
   <baseline>
 	spec
-		for: #'common'
+		for: #common
 		do: [
 			spec
 				baseline: 'Vivide' with:
