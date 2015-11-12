@@ -6,9 +6,9 @@ baseline: spec
 		do: [
 			spec
 				baseline: 'Vivide' with:
-					[ spec repository: 'https://github.com/hpi-swa/vivide/tree/master/repository' ];
+					[ spec repository: 'github://hpi-swa/vivide:master/repository' ];
 				baseline: 'Ohm' with:
-					[ spec repository:  'https://github.com/hpi-swa/Ohm-S/tree/update-to-v0.86/packages' ];
+					[ spec repository:  'github://hpi-swa/ohm-s:update-to-v0.86/packages' ];
 				package: 'QoppaS' with: [spec requires: #('libraries')];
 				package: 'QoppaS-Tests' with: [spec requires: #('libraries')];
 				yourself.
