@@ -8,4 +8,4 @@ smalltalk:
 env:
   global:
     - BASELINE="QoppaS"
-#    - PACKAGES="/packages"
+    - PACKAGES="/packages"
